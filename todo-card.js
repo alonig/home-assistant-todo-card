@@ -2,7 +2,7 @@ import {
   LitElement,
   html,
   css
-} from 'https://cdn.skypack.dev/lit';
+} from 'https://cdn.skypack.dev/pin/lit@v3.3.2-yhyHQWRPQEFrYHeSU8JV/mode=imports/optimized/lit.js';
 
 // Class-level constants for re-use
 const DEFAULT_PRIORITY = '5';
@@ -857,4 +857,5 @@ window.customCards.push({
   name: "Todo List Card",
   preview: true,
   description: "A customizable card for managing todo lists with tasks and shopping modes."
+
 });
